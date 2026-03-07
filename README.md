@@ -35,6 +35,3 @@ terminal-system-analyzer/
 ├── requirements.txt
 └── README.md
 ```
-
-## License
-MIT
