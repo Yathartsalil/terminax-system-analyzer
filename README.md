@@ -1,23 +1,40 @@
-# 🚀 TerminaX — Modular Linux System Analyzer (CLI)
+# Terminal System Analyzer
 
-> A lightweight, modular, and hackable system monitoring toolkit for Linux power users and developers.
+Lightweight modular system monitoring toolkit for Linux power users and developers.
 
-TerminaX is a real-time terminal-based system analyzer built with Python.  
-It provides live insights into CPU, memory, and process statistics using a clean and extensible architecture.
+## Features
+- Live CPU usage monitoring
+- Memory and swap statistics
+- Top CPU-consuming processes
+- Clean modular architecture
+- Built using `psutil` and `rich`
 
----
+## Installation
 
-## ✨ Features
+```bash
+git clone https://github.com/yourusername/terminal-system-analyzer.git
+cd terminal-system-analyzer
+pip install -r requirements.txt
+python main.py
+```
 
-- ⚡ Live CPU usage monitoring
-- 🧠 Per-core CPU statistics
-- 💾 Memory and swap usage tracking
-- 📊 Load average display
-- 🔥 Top CPU-consuming processes
-- 🧩 Modular architecture (easy to extend)
-- 🎨 Beautiful terminal UI powered by `rich`
+## Project Structure
 
----
+```
+terminal-system-analyzer/
+│
+├── analyzer/
+│   ├── cpu.py
+│   ├── memory.py
+│   ├── disk.py
+│   ├── network.py
+│   ├── processes.py
+│   └── dashboard.py
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
 
-## 📸 Preview
-<img width="1046" height="355" alt="image" src="https://github.com/user-attachments/assets/faf0f2ad-3167-47bb-bb35-d0601ce830df" />
+## License
+MIT
