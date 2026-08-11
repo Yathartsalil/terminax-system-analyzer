@@ -12,7 +12,7 @@ Lightweight modular system monitoring toolkit for Linux power users and develope
 ## Installation
 
 ```bash
-git clone https://github.com/Yathartsalil/terminal-system-analyzer.git
+git clone https://github.com/Yathartsalil/terminax-system-analyzer.git
 cd terminal-system-analyzer
 pip install -r requirements.txt
 python main.py
